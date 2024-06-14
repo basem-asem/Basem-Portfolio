@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 // import me from '../../public/desktop_pc'
+import {Basem} from '../assets';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
         <div className="bg-[#915EFF50] absolute w-1/3 top-20 right-10 flex justify-center items-center rounded-[50%/60%_60%_80%_80%]">
-    <img src="../../public/last.png" alt="" />
+    <img src={Basem} alt="" />
         </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
